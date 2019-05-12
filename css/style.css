@@ -1,0 +1,499 @@
+/*
+Name:Shayema Sultana
+Country:Bangladesh
+Email:shayema141106@gmail.com
+*/
+/*
+1.Global CSS
+2.Navigation Menu
+	2.1-Dropdown Menu
+3.Header Section
+4.About Section	
+	4.1-About Section-1
+	4.2-About Section-2
+5.Consultant Section
+6.Services Section Start
+7.Digit Section	
+8.Why We Best Section
+9.Testimonials Section
+10.Contact Us
+11.Footer
+*/
+
+/* ---------- Global CSS Start --------------- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+/* ---------- Global CSS End --------------- */
+
+/* ---------- Navigation Menu Start ---------- */
+.navbar-expand-lg {
+    padding: 20px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fde428;
+}
+
+/* ---------- Dropdown Menu ------------------ */
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+}
+
+/* ---------- Navigation Menu End ------------ */
+
+/* ---------- Header Section Start ------------ */
+
+/* --------- Left Side Start -------*/
+.bg-img {
+    background: url(../images/bg-img.png) no-repeat;
+    background-size: cover;
+    padding: 155px 0px 126px;
+}
+
+.slider {
+    padding: 90px 0px;
+}
+
+.bg-img ul {
+    padding: 60px 15px 90px;
+}
+
+.bg-img ul li {
+    list-style: none;
+    display: inline;
+    color: #fde428;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+
+.bg-img a {
+    color: #fde428;
+    -webkit-transition: 0.4s ease-in;
+    -moz-transition: 0.4s ease-in;
+    -ms-transition: 0.4s ease-in;
+    -o-transition: 0.4s ease-in;
+    transition: 0.4s ease-in;
+}
+
+.bg-img a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* --------- Left Side End -------*/
+
+/* --------- Right Side Start -------*/
+.right-side {
+    padding-top: 130px;
+}
+
+.bg-img h5 {
+    color: #fff;
+    font-size: 41px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.consumer {
+    padding-left: 75px;
+}
+
+.products {
+    padding-left: 101px;
+}
+
+.consulting {
+    padding-left: 61px;
+}
+
+.learn-more {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fde425;
+    text-transform: uppercase;
+    padding: 20px 165px;
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.learn-more span {
+    width: 140px;
+    height: 2px;
+    background: #fde425;
+    display: inline-block;
+    transform: translateY(-19px);
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.learn-more span:hover {
+    background: #ffffff;
+}
+
+/* --------- Right Side End -------- */
+/* ---------- Header Section End -------------- */
+
+/* ---------- About Section Start -------------- */
+/* ---------- About Section-1 ----------*/
+/* --------- Left Side Start ------- */
+.about {
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+.about h1 {
+    font-size: 31px;
+    font-weight: bold;
+    color: #002e5b;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.about h6 {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+
+.about p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about h5 {
+    color: #002e5b;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.about h5 a {
+    color: #002e5b;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.about h5 a:hover {
+    color: #fde428;
+}
+.about h5 a span {
+    width: 114px;
+    height: 2px;
+    background: #002e5b;
+    display: inline-block;
+    transform: translate(-119px, 5px);
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.about h5 a span:hover {
+    background: #fde428;
+}
+
+/* --------- Left Side End --------- */
+
+/* --------- Right Side Start --------- */
+.shape-yellow img {
+    position: relative;
+}
+
+.shape-yellow iframe {
+    position: absolute;
+    top: 85px;
+    left: 35px;
+    right: 0px;
+}
+
+/* --------- Right Side End --------- */
+/* --------- About Section-1 End --------- */
+
+/* --------- About Section-2 Start --------- */
+.graph {
+    padding: 79px 0px;
+}
+
+/* --------- About Section-2 End ------------ */
+/* ---------- About Section End -------------- */
+
+/* ---------- Consultant Section Start -------------- */
+.map {
+    background-color: #f4f4f4;
+}
+
+.consultant {
+    padding: 27px 0px 12px;
+    background-color: #002e5b;
+}
+
+.consultant p {
+    color: #fff;
+    font-size: 21px;
+}
+
+.btn-primary {
+    background-color: #fde428;
+    color: #002e55;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #fde428;
+    color: #fff;
+    transition: 0.7s ease-in-out;
+}
+
+/* ---------- Consultant Section End ---------------- */
+
+/* ---------- Services Section Start ---------------- */
+.services {
+    padding: 79px 0px;
+}
+
+.popular h2 {
+    color: #002e5b;
+    font-size: 31px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.popular p {
+    color: #747474;
+    font-size: 21px;
+    font-weight: 300;
+    width: 55%;
+    margin-left: 250px;
+    line-height: 25px;
+    padding: 8px 0px 20px;
+}
+
+.same h4 {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: #003568;
+    padding: 30px 0px 10px;
+}
+
+.same p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #5d5d5d;
+}
+
+/* ---------- Services Section End ------------------ */
+
+/* ---------- Digit Section Start ------------------ */
+.digit {
+    background-color: #002e5b;
+    color: #fff;
+    padding: 90px 0px;
+}
+
+.digit h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.digit h6 {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* ---------- Digit Section End ------------------ */
+
+/* ----------Why We Best Section CSS Start --------------- */
+
+/* --------- Right Side Start --------- */
+/*.our-survices-hr {
+    border-bottom: 2px solid #002e5b;
+    width: 21.5%;
+    margin-top: -38px;
+}*/
+.best span {
+    width: 125px;
+    height: 2px;
+    background: #002e5b;
+    display: inline-block;
+    transform: translate(-129px, 5px);
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.best span:hover {
+    background: #fde425;
+}
+
+/* --------- Right Side End --------- */
+/* ----------Why We Best Section CSS End --------------- */
+
+/* ---------- Testimonials Section CSS Start --------------- */
+.testimonials {
+    padding: 120px 0px;
+    background-color: #07294b;
+    color: #fff;
+}
+
+.testimonials h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.testimonials p {
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonials h6 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* ---------- Testimonials Section CSS End --------------- */
+
+/* ---------- Contact Us Section CSS End --------------- */
+.contact {
+    padding: 79px 0px;
+}
+
+.map-images {
+    position: relative;
+}
+
+.address {
+    position: absolute;
+    top: 255px;
+    left: 50px;
+    color: #002e5b;
+}
+
+.address h5 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address h6 {
+    font-weight: 400;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.fa-map-marker {
+    padding-right: 18px;
+    padding-left: 3px;
+    font-size: 16px;
+}
+
+span {
+    padding: 0px 33px;
+}
+
+.fa-mobile {
+    padding-right: 17px;
+    padding-left: 3px;
+    font-size: 18px;
+}
+
+.fa-envelope {
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+/* ---------- Contact Us Section CSS End --------------- */
+
+/* ---------- Footer Section CSS Start --------------- */
+.footer {
+    background-color: #002e5b;
+    padding: 30px 0px 10px;
+}
+
+.footer span {
+    color: #f2dc30;
+    padding-left: 4px;
+    cursor: pointer;
+    -webkit-transition: 0.7s ease-in;
+    -moz-transition: 0.7s ease-in;
+    -o-transition: 0.7s ease-in;
+    transition: 0.7s ease-in;
+}
+
+.footer span:hover {
+    color: #9a8c23;
+}
+
+.footer ul {
+    margin-left: 159px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.footer a:hover {
+    cursor: pointer;
+    color: #f2dc30;
+}
+
+/* ---------- Footer Us Section CSS End --------------- */
